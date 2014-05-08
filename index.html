@@ -12,7 +12,12 @@
 <body ng-app="app">
 
 <div ng-controller="HomeController" ng-cloak>
-    {{'index.booted' | i18n }}
+    <ion-pane>
+        <ion-header-bar class="bar-stable">
+            <h1 class="title" i18n="index.booted"></h1>
+        </ion-header-bar>
+        <ion-content class="has-header"></ion-content>
+    </ion-pane>
 </div>
 
 <script type="text/javascript">
