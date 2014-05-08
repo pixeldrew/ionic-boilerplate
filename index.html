@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, height=device-height"/>
+
+    <title></title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body ng-app="app">
+
+<div ng-controller="HomeController" ng-cloak>
+    {{'index.booted' | i18n }}
+</div>
+
+<script type="text/javascript">
+
+    window.name = "NG_DEFER_BOOTSTRAP!";
+
+    if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|IEMobile)/) || location.search.indexOf('debug')>=0) {
+        document.write('<script src="phonegap.js"><\/script>');
+        document.write('<script src="js/main.min.js" ><\/script>');
+    } else {
+        document.write('<script src="bower_components/requirejs/require.js" data-main="js/config.js"><\/script>');
+    }
+</script>
+</body>
+</html>

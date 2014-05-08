@@ -1,0 +1,30 @@
+{
+  "name": "ionic-boilerplate",
+  "version": "0.0.0",
+  "authors": [
+    "Drew Foehn <drew@pixelburn.net>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "almond": "~0.2.9",
+    "jquery": "1.11.0",
+    "ionic": "v1.0.0-beta.3",
+    "lodash": "~2.4.1",
+    "lawnchair": "f9d28360a923aa3c2d1e7a313721b34ebfd60d33",
+    "requirejs-i18n": "~2.0.4",
+    "requirejs-plugins": "~1.0.2",
+    "requirejs-text": "~2.0.12",
+    "requirejs": "~2.1.11",
+    "normalize.css": "~3.0.1"
+  }
+}
