@@ -1,7 +1,7 @@
 define({
     "root" : {
         "index" : {
-            "booted" : "I'm Alive!"
+            "title" : "I'm Alive!"
         }
     }
 });
