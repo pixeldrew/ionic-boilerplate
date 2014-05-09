@@ -32,4 +32,4 @@ require.config({
         'lawnchair-webkit-sqlite': {deps: ['lawnchair'], exports: 'Lawnchair'}
     }
 });
-require(['filters', 'controllers']);
+require(['boot']);

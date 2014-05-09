@@ -1,8 +1,7 @@
 {
     "baseUrl": "js/",
     "name": "../bower_components/almond/almond",
-    "include" : ["filters", "controllers"],
-    "insertRequire" : ["filters", "controllers"],
+    "include" : ["boot"],
     "wrapShim": true,
     "out": "js/main.min.js",
     "paths": {
